@@ -1,0 +1,79 @@
+.container {
+    background-color: dimgray;
+    width: 50%;
+    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.square {
+    background-color: green;
+    margin: 1.66%;
+    width: 30%;
+    float: left;
+    padding-bottom: 30%;
+    border-radius: 30%;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+h1{
+    color: white;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: normal;
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px o;
+}
+
+body {
+    background-color: #232323;
+    width: 99%;
+
+}
+#message{
+    display: inline-block;
+    width: 20%;
+    font-size: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: steelblue;
+
+}
+
+.difficulty{
+    background-color: steelblue;
+    color: white;
+}
+#stripe{
+    background-color: white;
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    height: 30px;
+    color: black;
+    
+}
+span{
+    margin: auto;
+    width: 70%;
+    
+}
+button{
+    letter-spacing: 1px;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    font-size: inherit;
+    transition: all 0.3;
+    -webkit-transition:  0.3s;
+    -moz-transition:  0.3s;
+    outline: none;
+}
+#colorDisplay{
+    font-size: 50px;
+}
